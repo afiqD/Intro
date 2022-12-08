@@ -1,3 +1,4 @@
+
 // ? variable declaration
 // dark mode variables
 darkModeInput = document.getElementById('darkMode')
@@ -25,59 +26,59 @@ api = '<i class="fas fa-cogs"></i>'
 
 portfolioContent = [
     {
-        // music player
-        backgroundImage : 'assets/UIUXeverydays/music-player.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-9',
-        webLink : 'https://zahinz.github.io/SET-Day-9/audio-player-challenge/index.html',
+        // mysite
+        backgroundImage : 'assets/CodeDaily/mysite.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
     {
-        // parallax mouse
-        backgroundImage : 'assets/UIUXeverydays/parallax-mouse.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-10',
-        webLink : 'https://zahinz.github.io/SET-Day-10/challenge-2/index.html',
+        // catphotoapp
+        backgroundImage : 'assets/CodeDaily/catphotoapp.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
     {
-        // piano
-        backgroundImage : 'assets/UIUXeverydays/piano.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-11',
-        webLink : 'https://zahinz.github.io/SET-Day-11/piano/index.html',
+        // cafe
+        backgroundImage : 'assets/CodeDaily/cafe.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
     {
-        // to-do list
-        backgroundImage : 'assets/UIUXeverydays/to-do-list.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-12',
-        webLink : 'https://zahinz.github.io/SET-Day-12/to-do-task/index.html',
+        // markers
+        backgroundImage : 'assets/CodeDaily/markers.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
     {
-        // video player
-        backgroundImage : 'assets/UIUXeverydays/video-player.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-8',
-        webLink : 'https://zahinz.github.io/SET-Day-8/video-player/index.html',
+        // site
+        backgroundImage : 'assets/CodeDaily/site.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
     {
-        // chat app
-        backgroundImage : 'assets/UIUXeverydays/chat-app.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-13',
-        webLink : 'https://zahinz.github.io/SET-Day-13/chat-app/index.html',
+        // bacon
+        backgroundImage : 'assets/CodeDaily/bacon.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js, database]
     },
     {
-        // weather API
-        backgroundImage : 'assets/UIUXeverydays/weather-API.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-14',
-        webLink : 'https://zahinz.github.io/SET-Day-14/weather-apps/index.html',
+        // runcloud
+        backgroundImage : 'assets/CodeDaily/runcloud.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js, api]
     },
     {
-        // parallax scroll
-        backgroundImage : 'assets/UIUXeverydays/parallax-scroll.gif',
-        githubLink : 'https://github.com/zahinz/SET-Day-10',
-        webLink : 'https://zahinz.github.io/SET-Day-10/challenge-1/index.html',
+        // tindog
+        backgroundImage : 'assets/CodeDaily/tindog.gif',
+        // githubLink : 'https://github.com/AfiqD/',
+        // webLink : 'https://afiqD.github.io/',
         technology: [html, css, js]
     },
 ]
@@ -89,10 +90,10 @@ portfolioHolder = document.querySelector('.portfolio-holder')
 window.onload = (evt) => {
     darkModeInput.checked = true
     // html body color
-    document.querySelector('body').style.backgroundColor = '#1C1026'
+    document.querySelector('body').style.backgroundColor = '#101826'
     // text title color
     for (let i = 0; i < titleColor.length; i++) {
-        titleColor[i].style.color = '#fdfdfd'
+        titleColor[i].style.color = '#e0efff'
     }
     // text body color
     for (let i = 0; i < bodyColor.length; i++) {
@@ -106,7 +107,7 @@ window.onload = (evt) => {
     }
     // dark mode border
     for (let i = 0; i < darkBorder.length; i++) {
-        darkBorder[i].style.backgroundColor = '#0F0717'
+        darkBorder[i].style.backgroundColor = '#101826'
     }
 }
 // dark mode upon switch onchange
@@ -114,7 +115,7 @@ function darkMode() {
     switch (darkModeInput.checked) {
         case true:
             // html body color
-            document.querySelector('body').style.backgroundColor = '#1C1026'
+            document.querySelector('body').style.backgroundColor = '#101826'
             // text title color
             for (let i = 0; i < titleColor.length; i++) {
                 titleColor[i].style.color = 'white'
@@ -131,7 +132,7 @@ function darkMode() {
             }
             // dark mode border
             for (let i = 0; i < darkBorder.length; i++) {
-                darkBorder[i].style.backgroundColor = '#0F0717'
+                darkBorder[i].style.backgroundColor = '#101826'
             }
             // bootstrap next and prev icon
             for (let i = 0; i < nextSlidesIcon.length; i++) {
@@ -151,7 +152,7 @@ function darkMode() {
 
         case false:
             // html body color
-            document.querySelector('body').style.backgroundColor = '#fdfdfd'
+            document.querySelector('body').style.backgroundColor = '#e0efff'
             // text title color
             for (let i = 0; i < titleColor.length; i++) {
                 titleColor[i].style.color = '#3B4250'
