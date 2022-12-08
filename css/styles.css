@@ -291,7 +291,7 @@ p .hero-logo {
   justify-content: center;
 }
 
-.uiuxeverydays {
+.CodeDaily {
   width: 100%;
   display: flex;
   align-items: center;
@@ -300,12 +300,12 @@ p .hero-logo {
   border-radius: 20px;
 }
 
-.uiuxeverydays .text {
+.CodeDaily .text {
   padding: 10px 20px 10px 40px;
   width: 60%;
 }
 
-.uiuxeverydays button {
+.CodeDaily button {
   margin-top: 40px;
   background-color: white;
   color: #3B4250;
@@ -340,7 +340,7 @@ a {
   width: 100%;
 }
 
-.uiuxeverydays button {
+.CodeDaily button {
   margin-top: 40px;
   background-color: white;
   color: #3B4250;
@@ -621,18 +621,18 @@ a {
     margin-top: 50px;
   }
 
-  .uiuxeverydays {
+  .CodeDaily {
     padding: 0 30px 30px;
     flex-direction: column-reverse;
   }
 
-  .uiuxeverydays .text {
+  .CodeDaily .text {
     padding: 0;
     width: 100%;
     text-align: center;
   }
 
-  .uiuxeverydays .text .main-title {
+  .CodeDaily .text .main-title {
     margin-top: 10px;
   }
 
